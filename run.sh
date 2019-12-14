@@ -1,0 +1,1 @@
+/go/bin/main -instance "$BT_INSTANCE" -project "$BT_PROJECT" -scratch_table "$BT_TABLE" -pool_size "$GRPC_POOL" -req_count "$REQ_COUNT" -run_for 0 -key_list "$KEY_LIST_FILE_PATH"
